@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+backend/venv/
+.venv/
+venv/
+ENV/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.log
+backend/output.log
+
+# Database files (generated dynamically on startup)
+backend/honeymap.db
+*.db
+*.sqlite3
+
+# Frontend build output
+frontend/dist/
+dist/
+
+# Local Environment Variables
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,16 @@
+.row-inactive { opacity: 0.4; }
+.ranked-row.row-inactive { opacity: 0.4; }
+
+.marker-severity-low { color: var(--severity-low); background: var(--severity-low); }
+.marker-severity-medium { color: var(--severity-medium); background: var(--severity-medium); }
+.marker-severity-high { color: var(--severity-high); background: var(--severity-high); }
+.marker-severity-critical { color: var(--severity-critical); background: var(--severity-critical); }
+
+@keyframes markerFadeSlideIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-marker-in { animation: markerFadeSlideIn 220ms ease-out both; }
+
+.threat-map-compat .leaflet-container { background: var(--bg-panel-2); }

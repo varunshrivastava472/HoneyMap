@@ -1,0 +1,62 @@
+/*
+  HoneyMap Design Tokens
+  Single source of truth for visual language, typography, spacing, and motion.
+*/
+:root {
+  /* Palette */
+  --bg-app: #F8F9FB;
+  --bg-panel-1: #FFFFFF;
+  --bg-panel-2: #F1F3F7;
+  --accent-interactive: #FF471A;
+  --severity-low: #1D63ED;
+  --severity-medium: #B54708;
+  --severity-high: #C4320A;
+  --severity-critical: #B42318;
+
+  /* Map and chart semantics */
+  --map-low-pin: #06B6D4;
+  --map-medium-pin: #8B5CF6;
+  --map-high-pin: #F97316;
+  --map-critical-pin: #EF4444;
+  --map-low-glow: rgba(6, 182, 212, 0.45);
+  --map-medium-glow: rgba(139, 92, 246, 0.5);
+  --map-high-glow: rgba(249, 115, 22, 0.55);
+  --map-critical-glow: rgba(239, 68, 68, 0.65);
+  --map-hub-pin: #10B981;
+  --map-hub-glow: rgba(16, 185, 129, 0.25);
+  --map-hub-core: #059669;
+  --map-hub-shadow: rgba(5, 150, 105, 0.8);
+  --map-hub-slight: #ECFDF5;
+
+  --text-ink: #0F172A;
+  --text-muted: #64748B;
+  --grid-surface: #F1F5F9;
+  --grid-line: #E2E8F0;
+  --shadow-soft: rgba(0, 0, 0, 0.08);
+  --shadow-card: rgba(0, 0, 0, 0.05);
+
+  /* Typography */
+  --font-display: 'Plus Jakarta Sans', 'Inter', sans-serif;
+  --font-ui: 'Inter', 'Plus Jakarta Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Inter', monospace;
+
+  /* Weights used by tokens */
+  --font-weight-400: 400;
+  --font-weight-500: 500;
+  --font-weight-600: 600;
+  --font-weight-700: 700;
+
+  /* Spacing scale */
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-48: 48px;
+
+  /* Motion */
+  --dur-event-in: 260ms;
+  --dur-severity-trans: 260ms;
+  --ease-spring: cubic-bezier(.2,.8,.2,1);
+}
